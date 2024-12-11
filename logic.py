@@ -3,6 +3,9 @@ from gui import *
 import csv
 
 class Logic(QMainWindow, Ui_MainWindow):
+    """
+    Class to set up the logic for a grading application and has class variables to use within the class 
+    """
     MIN_ATTEMPTS :int = 0
     MAX_ATTEMPTS :int = 4
     MIN_SCORE :int = 0
